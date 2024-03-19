@@ -1,9 +1,9 @@
 {
-    "Identifier": "",
-    "Slug": "",
-    "Status": "",
-    "Title": "",
-    "Description": "",
+    "Identifier": "eos8aox",
+    "Slug": "cc-signaturizer-3d",
+    "Status": "In progress",
+    "Title": "Chemical Checker Signaturizer 3D",
+    "Description": "Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties.",
     "Mode": "",
     "Task": [],
     "Input": [],
@@ -12,8 +12,8 @@
     "Output Type": [],
     "Output Shape": "",
     "Interpretation": "",
-    "Tag": [],
-    "Publication": "",
-    "Source Code": "",
-    "License": ""
+    "Tag": null,
+    "Publication": "https://www.biorxiv.org/content/10.1101/2024.03.15.584974v1",
+    "Source Code": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d",
+    "License": "MIT"
 }
