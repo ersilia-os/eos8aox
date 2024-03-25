@@ -25,6 +25,8 @@ Building on the Chemical Checker bioactivity signatures (available as eos4u6p), 
 
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos8aox)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8aox.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos8aox) (AMD64, ARM64)
 
 ## Citation
 

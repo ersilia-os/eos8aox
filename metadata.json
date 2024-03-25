@@ -27,5 +27,11 @@
     ],
     "Publication": "https://www.biorxiv.org/content/10.1101/2024.03.15.584974v1",
     "Source Code": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d",
-    "License": "MIT"
+    "License": "MIT",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8aox.zip",
+    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8aox",
+    "Docker Architecture": [
+        "AMD64",
+        "ARM64"
+    ]
 }
