@@ -12,6 +12,7 @@ import collections
 import tempfile
 import subprocess
 import csv
+import json
 
 CHECKPOINTS_BASEDIR = "checkpoints"
 FRAMEWORK_BASEDIR = "framework"
