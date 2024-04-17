@@ -48,7 +48,7 @@ def String(x):
 class Model(object):
     def __init__(self):
         self.DATA_FILE = "_data.csv"
-        self.OUTPUT_FILE = "_output.csv"
+        self.OUTPUT_FILE = "_output.json"
         self.RUN_FILE = "_run.sh"
         self.LOG_FILE = "run.log"
 
@@ -85,16 +85,8 @@ class Model(object):
                 cmd, stdout=fp, stderr=fp, shell=True, env=os.environ
             ).wait()
         with open(output_file, "r") as f:
-            reader = csv.reader(f)
-            h = next(reader)
-            R = []
-            for r in reader:
-                R += [
-                    {"outcome": [Float(x) for x in r]}
-                ]  # <-- EDIT: Modify according to type of output (Float, String...)
-        meta = {"outcome": h}
-        result = {"result": R, "meta": meta}
-        shutil.rmtree(tmp_folder)
+            result = json.load(f)
+        shutil.rmtree(tmp_folder)    
         return result
 
 
