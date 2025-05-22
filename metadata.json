@@ -3,21 +3,18 @@
     "Slug": "cc-signaturizer-3d",
     "Status": "Ready",
     "Title": "Chemical Checker Signaturizer 3D",
-    "Description": "Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties.\n",
+    "Description": "Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties.",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
     "Output": [
         "Value"
     ],
@@ -29,19 +26,22 @@
         "Bioactivity profile",
         "Embedding"
     ],
-    "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2024,
+    "Publication": "https://jcheminf.biomedcentral.com/articles/10.1186/s13321-024-00867-4",
     "Source Code": "https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d",
     "License": "MIT",
     "Contributor": "GemmaTuron",
     "Incorporation Date": "2024-03-19",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8aox.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos8aox",
     "Docker Architecture": [
         "AMD64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos8aox.zip",
-    "Deployment": [
-        "Local"
     ]
 }
