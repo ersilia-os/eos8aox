@@ -1,6 +1,6 @@
 # Chemical Checker Signaturizer 3D
 
-Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties. In this implementation we provide the A1, A2, A3, B1, B4 and C3 signatures
+Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties.
 
 This model was incorporated on 2024-03-19.
 
