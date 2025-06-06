@@ -6,7 +6,7 @@ on:
 jobs:
   post-to-slack:
     if: github.repository != 'ersilia-os/eos-template'
-    uses: ersilia-os/ersilia-model-workflows-self-hosted/.github/workflows/post-to-slack.yml@main
+    uses: ersilia-os/ersilia-model-workflows/.github/workflows/post-to-slack.yml@main
     with:
       repo_name: ${{ github.event.repository.name }}
     secrets:
