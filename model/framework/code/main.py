@@ -22,6 +22,7 @@ input_file = sys.argv[1]
 output_file = sys.argv[2]
 
 DATASETS = [i+j for i in "ABCDE" for j in "12345"]
+DATASETS = ['A1']
 
 def get_model_path(ds):
     return os.path.join(checkpoints_dir, "{}_split3.pt".format(ds))
