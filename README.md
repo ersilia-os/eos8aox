@@ -50,7 +50,12 @@ _10 of 3200 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `24003`
 - **Environment Size (Mb):** `1309`
+- **Image Size (Mb):** `2844.92`
 
+**Computational Performance (seconds):**
+- 10 inputs: `32.85`
+- 100 inputs: `52.49`
+- 10000 inputs: `1599.31`
 
 ### References
 - **Source Code**: [https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d](https://gitlabsbnb.irbbarcelona.org/packages/signaturizer3d)
