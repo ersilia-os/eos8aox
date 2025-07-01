@@ -1,7 +1,7 @@
 {
     "Identifier": "eos8aox",
     "Slug": "cc-signaturizer-3d",
-    "Status": "Ready",
+    "Status": "Archived",
     "Title": "Chemical Checker Signaturizer 3D",
     "Description": "Building on the Chemical Checker bioactivity signatures (available as eos4u6p), the authors use the relation between stereoisomers and bioactivity of over 1M compounds to train stereochemically-aware signaturizers that better describe small molecule bioactivity properties.",
     "Deployment": [
